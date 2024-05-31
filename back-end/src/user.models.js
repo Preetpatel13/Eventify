@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
 
 const connectDB = async () => {
     try {
-        const connectionInstance = await mongoose.connect(`mongodb+srv://preetpatel1356:preet123@cluster0.t0etv0s.mongodb.net/Event`, {
+        const connectionInstance = await mongoose.connect(`mongodb+srv://replacewithyours@cluster0.t0etv0s.mongodb.net/Event`, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
